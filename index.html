@@ -23,15 +23,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
-
+    <link rel="stylesheet" href="https://fonticons-free-fonticons.netdna-ssl.com/kits/ffe176a3/publications/72113/woff2.css" media="all">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.js" type="text/javascript"></script>
     <script type="text/javascript">
 
-        function photo_view(obj) {
+        /*function photo_view(obj) {
             console.log('obj',$(obj).attr('src'));
             window.open($(obj).attr('src'), 'wedding-photo');
-        }
+        }*/
 
         function findGetParameter(parameterName) {
             var result = null,
@@ -76,7 +76,8 @@
                 infinite: true,
                 speed: 500,
                 fade: true,
-                cssEase: 'linear'
+                cssEase: 'linear',
+                arrows: true
             });
         });
 
@@ -95,14 +96,14 @@
         <div class="ww-home-page" id="home">
             <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
                 <div class="container ww-announcement-container">
-                    <p class="ww-couple-name ww-title" style="font-family: 'Nanum Brush Script', cursive;font-size:4.0em">지훈 & 진아</p>
-                    <p class="h2 mt-5 ww-title" style="font-family: 'Gugi', cursive; font-size:1.0em">
-                        | WE ARE GETTING MARRIED |
+                    <p class="ww-couple-name ww-title" style="font-family: 'Nanum Brush Script', cursive;font-size:4.0em">Wedding Day</p>
+                    <p class="h2 ww-title" style="font-family: 'Gugi', cursive; font-size:20px; margin-top:40px;">
+                       지훈&진아
                     </p>
-                    <p class="h2 mt-5 ww-title"
-                       style="font-family: 'Noto Serif KR', serif; font-size:1.0em; letter-spacing:-1px">
-                        <b style="font-size:1.4em;">2020. 09. 12. SAT PM 03:00</b>
-                        <br>강원도 강릉시 저동골길 105번길 37-1
+                    <p class="h2 ww-title"
+                       style="font-family: 'Noto Serif KR', serif; font-size:16px; letter-spacing:-0.5px; margin-top:20px;">
+                        <span style="font-size:16px;">2020. 09. 12. SAT PM 03:00</span>
+                        <span style="display:block; margin-top:5px;">강원도 강릉시 저동골길 105번길 37-1</span>
                     </p>
                 </div>
             </div>
@@ -116,7 +117,7 @@
                             
                                     <i class="text-muted fas fa-map-marker-alt"></i>
                                     <span class="pl-2 text-muted">
-                                        <p style="width:80%; margin:0 auto;font-family: 'Noto Sans KR', sans-serif;">
+                                        <p style="width:100%; margin:0 auto;font-family: 'Noto Sans KR', sans-serif; text-align:center;">
                                             오랜 시간 한 곳, 한 사람만 바라보았습니다.<br>
                                             힘들고 지칠 때 힘이 되어준 사람이 있습니다.<br>
                                             이제 세상에서 가장 아름다운<br>
