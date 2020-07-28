@@ -9756,7 +9756,7 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/wedding009.jpg") no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/wedding09.jpg") no-repeat center center;
     background-size: cover;
     background-position: 50%;
     height: 100vh;
@@ -9777,7 +9777,7 @@ body {
     max-width: 600px;
     text-align: center;
     z-index: 999;
-    height:900px;
+    height:1050px;
 }
 
 .ww-home-page .ww-wedding-announcement img {
